@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    /* Remove underline */
+    color: black;
+    /* Change link color */
+}
+
+
+.sidebar {
+    background-color: blueviolet;
+    width: 20vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Center the image container */
+.profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Circular profile image */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar nav {
+    padding: 25px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main {
+    background-color: rgb(51, 255, 0);
+    width: 80vw;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.mainproject {
+    background-color: yellow;
+    width: 80vw;
+    height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flex-item {
+    flex: 1;
+    background-color: teal;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.flex-item li {
+    list-style-type: none;
+}
+
+.ul content {
+    padding: 15px;
+}
+
+.link {
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.button {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: teal;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+}
